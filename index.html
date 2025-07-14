@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagosh Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div><h1>Meu Tamagosh</h1></div>
+        <section>
+            <div id="status">
+                    <p>Fome:<span id="fome">100</span></p>
+                    <p>Felicidade:<span id="felicidade">100</span></p>
+                    <p>Energia:<span id="energia">100</span></p>
+            </div>
+            <div id="pet">
+                <img src="imagens/feliz1.png" alt="pet">
+            </div>
+            <div id="botoes">
+                <p>
+                    <input type="button" value="ALIMENTAR" id="alimentar" onclick="darComida()">
+                    <input type="button" value="BRINCAR" id="brincar" onclick="seDivertir()">
+                    <input type="button" value="DORMIR" id="dormir" onclick="irDormir()">
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por &copy; Majestic7Code</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
